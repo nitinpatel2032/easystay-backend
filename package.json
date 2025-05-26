@@ -1,0 +1,29 @@
+{
+  "name": "stayeasy",
+  "version": "1.0.0",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "body-parser": "^2.2.0",
+    "cookie-parser": "^1.4.7",
+    "cookies": "^0.9.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.5.0",
+    "express": "^5.1.0",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.1.0",
+    "hpp": "^0.2.3",
+    "morgan": "^1.10.0",
+    "mssql": "^11.0.1",
+    "nodemon": "^3.1.10",
+    "winston": "^3.17.0",
+    "xss-clean": "^0.1.4"
+  }
+}
